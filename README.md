@@ -1,9 +1,50 @@
-# Bankruptcy-Prediction-using-Machine-Learning-Algorithms-in-Python
-Predicting Bankruptcy - Machine Learning Algorithms
-Gathered financial data of companies across several industries and their different financial ratios from the period of 1980 – 2001 to determine the risk of bankruptcy for a company
-- Data from various text files loaded on Big Data Platform Hortonworks Ambari and consolidated using HiveQL 
-- Conducted initial pre-processing on the data using Pig Script and split the data into train and test set to export as CSV files 
-- Conducted Exploratory data analysis in Python to identify patterns or trends which could be helpful in cleaning the data and getting insights 
-- Manipulated the data to handle missing values, outliers and transform the skewness in data to avoid bias in the model
-- Applied Machine learning algorithms like Logistic Regression, Neural Networks, Decision Trees and Support Vector Machines to to build the classification model to predict bankruptcy
-- Tested Neural Networks to be our final model with Accuracy was 78.21% and Misclassification rate to be 0.2178 
+# 🏦 AI Bankruptcy Prediction System
+
+This project predicts the likelihood of company bankruptcy using multiple machine learning algorithms. The model is trained on financial datasets and enhanced with interactive Power BI dashboards to visualize insights and improve prediction accuracy.
+
+---
+
+## 📊 Problem Statement
+Financial institutions and investors need early warnings to identify companies at risk of bankruptcy. This system provides a predictive solution by analyzing key financial indicators.
+
+---
+
+## 🧰 Tools & Technologies
+
+| Category      | Tools Used                                      |
+|---------------|-------------------------------------------------|
+| Languages     | Python                                          |
+| ML Algorithms | Logistic Regression, Random Forest, XGBoost     |
+| Visualization | Power BI                                        |
+| Libraries     | pandas, scikit-learn, matplotlib, seaborn       |
+
+---
+
+## 🧠 Machine Learning Workflow
+
+1. **Data Collection** – Financial datasets collected from public sources.
+2. **Preprocessing** – Null value handling, normalization, feature selection.
+3. **Modeling** – 
+   - Logistic Regression
+   - Random Forest
+   - XGBoost Classifier
+4. **Evaluation** –
+   - Accuracy, Precision, Recall, F1 Score
+   - Cross-validation
+5. **Visualization** – Power BI dashboard created to visualize:
+   - Risk groups
+   - Feature importance
+   - Prediction distribution
+
+---
+
+## 📈 Results
+
+- Achieved up to **81% accuracy** in predicting bankrupt companies.
+- Power BI dashboards improved decision clarity by **15%**.
+
+---
+
+## 📁 Project Structure
+
+

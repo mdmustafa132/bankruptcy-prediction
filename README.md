@@ -47,4 +47,15 @@ Financial institutions and investors need early warnings to identify companies a
 
 ## 📁 Project Structure
 
+bankruptcy-prediction/
+├── data/
+│ └── financial_data.csv
+├── notebooks/
+│ └── bankruptcy_model.ipynb
+├── models/
+│ └── model.pkl
+├── dashboard/
+│ └── Bankruptcy_Insights.pbix
+└── README.md
+
 
